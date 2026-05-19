@@ -1,8 +1,8 @@
-import Filter from "./filter.tsx";
+import Filter from "./Filter.tsx";
 
 const Header = () => {
   return (
-    <header className="mt-12 space-y-4">
+    <header className="mx-auto mt-12 w-[90%] space-y-4">
       <h1 className="title text-center text-7xl font-bold">
         Belajar HTML & CSS
       </h1>
