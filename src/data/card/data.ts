@@ -1,0 +1,58 @@
+export const MateriData = [
+  {
+    id: 1,
+    icon: "/public/arrow.svg",
+    category: "HTML",
+    title: "HTML Dasar",
+    desc: "Belajar struktur dasar website menggunakan HTML.",
+  },
+  {
+    id: 2,
+    icon: "/public/arrow.svg",
+    category: "HTML",
+    title: "HTML Dasar",
+    desc: "Belajar struktur dasar website menggunakan HTML.",
+  },
+  {
+    id: 3,
+    icon: "/public/arrow.svg",
+    category: "HTML",
+    title: "HTML Dasar",
+    desc: "Belajar struktur dasar website menggunakan HTML.",
+  },
+  {
+    id: 4,
+    icon: "/public/arrow.svg",
+    category: "HTML",
+    title: "HTML Dasar",
+    desc: "Belajar struktur dasar website menggunakan HTML.",
+  },
+  {
+    id: 5,
+    icon: "/public/arrow.svg",
+    category: "HTML",
+    title: "HTML Dasar",
+    desc: "Belajar struktur dasar website menggunakan HTML.",
+  },
+  {
+    id: 6,
+    icon: "/public/arrow.svg",
+    category: "HTML",
+    title: "HTML Dasar",
+    desc: "Belajar struktur dasar website menggunakan HTML.",
+  },
+  {
+    id: 7,
+    icon: "/public/arrow.svg",
+    category: "HTML",
+    title: "HTML Dasar",
+    desc: "Belajar struktur dasar website menggunakan HTML.",
+  },
+  {
+    id: 8,
+    icon: "/public/arrow.svg",
+    category: "HTML",
+    title: "HTML Dasar",
+    desc: "Belajar struktur dasar website menggunakan HTML.",
+  },
+];
