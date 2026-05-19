@@ -1,7 +1,9 @@
+import Header from "./components/Header.tsx";
+
 function App() {
   return (
     <>
-      <section className="text-2xl font-bold text-red-500">Halo</section>
+      <Header />
     </>
   );
 }
