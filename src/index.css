@@ -15,4 +15,8 @@
     .title {
         @apply bg-linear-to-r from-orange-600  to-blue-600 bg-clip-text text-transparent;
     }
+
+    .filter {
+        @apply border border-black/50 rounded-2xl w-20 h-8 hover:scale-105 duration-300 cursor-pointer;
+    }
 }
