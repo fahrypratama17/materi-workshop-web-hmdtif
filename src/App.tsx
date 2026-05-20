@@ -1,5 +1,5 @@
-import Header from "./components/Header.tsx";
-import Materi from "./components/Materi.tsx";
+import Header from "./feature/components/Header.tsx";
+import Materi from "./feature/components/Materi.tsx";
 
 function App() {
   return (
