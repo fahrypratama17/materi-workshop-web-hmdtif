@@ -1,9 +1,22 @@
-const filter = () => {
+type FilterProps = {
+  category: string;
+  setCategory: (value: string) => void;
+};
+
+const filter = ({ category, setCategory }: FilterProps) => {
+  const filters = ["Semua", "HTML", "CSS"];
+
   return (
     <section className="mt-12 flex items-center justify-center gap-8">
-      <button className="filter">Semua</button>
-      <button className="filter">HTML</button>
-      <button className="filter">CSS</button>
+      {filters.map((item) => (
+        <button
+          key={item}
+          onClick={() => setCategory(item)}
+          className={`filter ${category === item ? "bg-black text-white" : ""}`}
+        >
+          {item}
+        </button>
+      ))}
     </section>
   );
 };

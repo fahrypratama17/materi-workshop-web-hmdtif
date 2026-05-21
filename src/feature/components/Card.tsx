@@ -22,7 +22,7 @@ const Card = ({ icon, category, title, desc }: CardProps) => {
       <h1 className="font-bold">{title}</h1>
       <p>{desc}</p>
       <button
-        className={`flex items-center gap-2 ${category === "HTML" ? "text-orange-600" : "text-blue-700"}`}
+        className={`flex items-center gap-2 ${category === "HTML" ? "text-orange-600" : "text-blue-700"} cursor-pointer`}
       >
         Mulai Belajar
         <MoveRight className="h-4 w-3" />

@@ -1,5 +1,3 @@
-import Filter from "./Filter.tsx";
-
 const Header = () => {
   return (
     <header className="mx-auto mt-12 w-[90%] space-y-4">
@@ -9,7 +7,6 @@ const Header = () => {
       <p className="text-center text-2xl text-black/50">
         Materi dari dasar hingga mahir - klik topik untuk mulai belajar
       </p>
-      <Filter />
     </header>
   );
 };
