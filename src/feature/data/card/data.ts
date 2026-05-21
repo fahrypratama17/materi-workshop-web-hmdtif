@@ -50,6 +50,13 @@ export const MateriData = [
   },
   {
     id: 8,
+    icon: "/grid.svg",
+    category: "CSS",
+    title: "CSS Grid",
+    desc: "Layout dua dimensi yang fleksibel untuk mengatur baris dan kolom.",
+  },
+  {
+    id: 9,
     icon: "/responsive.svg",
     category: "CSS",
     title: "Responsive Design",
