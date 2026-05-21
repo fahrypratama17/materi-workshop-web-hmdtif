@@ -1,8 +1,10 @@
+import Header from "../components/Header.tsx";
+
 const PengenalanHTML = () => {
   return (
-    <section>
-      <h1>Halo</h1>
-    </section>
+    <>
+      <Header />
+    </>
   );
 };
 
