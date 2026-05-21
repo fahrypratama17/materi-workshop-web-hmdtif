@@ -1,5 +1,5 @@
 import Card from "./Card.tsx";
-import useFilterMateri from "../../hooks/useFilterMateri.ts";
+import useFilterMateri from "../../../hooks/useFilterMateri.ts";
 import Filter from "./Filter.tsx";
 
 const Materi = () => {
