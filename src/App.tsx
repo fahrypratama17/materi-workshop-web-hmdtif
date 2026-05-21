@@ -1,14 +1,13 @@
-import Header from "./feature/home/components/Header.tsx";
-import Materi from "./feature/home/components/Materi.tsx";
+import { Route, Routes } from "react-router-dom";
+import Home from "./features/home/pages/Home.tsx";
+import PengenalanHTML from "./features/pengenalan-html/pages/PengenalanHTML.tsx";
 
 function App() {
   return (
-    <>
-      <Header />
-      <main>
-        <Materi />
-      </main>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/pengenalan-html" element={<PengenalanHTML />}></Route>
+    </Routes>
   );
 }
 

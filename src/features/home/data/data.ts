@@ -5,6 +5,7 @@ export const MateriData = [
     category: "HTML",
     title: "Pengenalan HTML",
     desc: "HyperText Markup Language — bahasa untuk membangun struktur halaman web.",
+    link: "/pengenalan-html",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const MateriData = [
     category: "HTML",
     title: "Tag-tag HTML Penting",
     desc: "Heading, paragraf, link, gambar, dan daftar — fondasi konten web.",
+    link: "/pengenalan-html",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const MateriData = [
     category: "HTML",
     title: "Form & Input",
     desc: "Cara mengumpulkan data dari pengguna menggunakan elemen form.",
+    link: "/pengenalan-html",
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const MateriData = [
     category: "CSS",
     title: "Pengenalan CSS",
     desc: "Cascading Style Sheets — bahasa untuk mendesain tampilan HTML.",
+    link: "/pengenalan-html",
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const MateriData = [
     category: "CSS",
     title: "Selektor CSS",
     desc: "Cara memilih elemen HTML yang ingin diberi style.",
+    link: "/pengenalan-html",
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ export const MateriData = [
     category: "CSS",
     title: "Box Model",
     desc: "Memahami margin, border, padding, dan content — inti dari layout CSS.",
+    link: "/pengenalan-html",
   },
   {
     id: 7,
@@ -47,6 +53,7 @@ export const MateriData = [
     category: "CSS",
     title: "Flexbox",
     desc: "Layout satu dimensi yang fleksibel untuk mengatur baris atau kolom.",
+    link: "/pengenalan-html",
   },
   {
     id: 8,
@@ -54,6 +61,7 @@ export const MateriData = [
     category: "CSS",
     title: "CSS Grid",
     desc: "Layout dua dimensi yang fleksibel untuk mengatur baris dan kolom.",
+    link: "/pengenalan-html",
   },
   {
     id: 9,
@@ -61,5 +69,6 @@ export const MateriData = [
     category: "CSS",
     title: "Responsive Design",
     desc: "Membuat tampilan yang menyesuaikan berbagai ukuran layar.",
+    link: "/pengenalan-html",
   },
 ];

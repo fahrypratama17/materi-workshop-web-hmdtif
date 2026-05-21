@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MateriData } from "../feature/data/card/data.ts";
+import { MateriData } from "../data/data.ts";
 
 const useFilterMateri = () => {
   const [category, setCategory] = useState("Semua");

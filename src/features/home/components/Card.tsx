@@ -1,4 +1,5 @@
 import { MoveRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 type CardProps = {
   id: number;
@@ -6,12 +7,16 @@ type CardProps = {
   category: string;
   title: string;
   desc: string;
+  link: string;
 };
 
-const Card = ({ icon, category, title, desc }: CardProps) => {
+const Card = ({ icon, category, title, desc, link }: CardProps) => {
+  const navigate = useNavigate();
+
   return (
     <div
       className={`flex cursor-pointer flex-col items-start justify-between space-y-4 rounded-2xl border border-black/20 p-8 duration-300 hover:-translate-y-2 ${category === "HTML" ? "hover:border-orange-600" : "hover:border-blue-700"}`}
+      onClick={() => navigate(link)}
     >
       <img src={icon} alt={title} className="mb-4 h-16 w-16" />
       <p

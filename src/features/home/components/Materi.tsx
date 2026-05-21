@@ -18,6 +18,7 @@ const Materi = () => {
             category={item.category}
             title={item.title}
             desc={item.desc}
+            link={item.link}
           />
         ))}
       </section>
